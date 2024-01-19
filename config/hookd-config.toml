@@ -1,0 +1,9 @@
+[[hooks]]
+id = 'blog'
+secret = 'b0b4d001-da79-4db8-bcaa-3130774abcea'
+execute = 'sleep 1'
+
+[[hooks]]
+id = 'website'
+secret = 'af322f5c-4586-4ad8-80bc-23e132e85f9f'
+execute = 'sleep 1'
