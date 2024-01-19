@@ -1,0 +1,11 @@
+services:
+  hookd:
+    container_name: "hookd"
+    build: .
+    ports: 
+      - 127.0.0.1:5000:8000
+    environment:
+      - ROCKET_ADDRESS=0.0.0.0
+      - ROCKET_PORT=8000
+    volumes:
+      - "./config/hookd-config.toml:/opt/hookd/hookd-config.toml"
